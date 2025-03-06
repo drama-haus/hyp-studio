@@ -1,12 +1,19 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@repo/config",
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./react-internal": "./react-internal.js",
+    "./base.json": "./base.json",
+    "./nextjs.json": "./nextjs.json",
+    "./react-internal.json": "./react-library.json"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

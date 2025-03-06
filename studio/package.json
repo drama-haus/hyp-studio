@@ -1,0 +1,12 @@
+{
+  "name": "hyp-studio",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "rollup": "^4.34.9"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
