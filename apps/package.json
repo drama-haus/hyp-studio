@@ -1,0 +1,6 @@
+{
+  "name": "@repo/apps",
+  "devDependencies": {
+    "@repo/config": "*"
+  }
+}

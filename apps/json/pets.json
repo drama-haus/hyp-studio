@@ -7,7 +7,7 @@
     "url": "https://github.com/Bitmato-Studio/MatoPet",
     "desc": null,
     "model": "asset://pet.vrm",
-    "script": "./studio/src/pet.js",
+    "script": "src://main.js",
     "props": {
       "avoidance_distance": "4",
       "follow_speed": "2.2",
