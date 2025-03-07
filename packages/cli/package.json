@@ -1,0 +1,22 @@
+{
+  "name": "@repo/cli",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "apps": "./apps.js",
+    "mods": "./mods.js",
+    "worlds": "./worlds.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "knex": "^3.1.0",
+    "rollup": "^4.34.9",
+    "table": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
