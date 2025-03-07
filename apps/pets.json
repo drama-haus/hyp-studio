@@ -1,0 +1,36 @@
+{
+    "id": "9RRR3nbVYR",
+    "version": 155,
+    "name": "Mato Pet v2",
+    "image": null,
+    "author": "may - scoe",
+    "url": "https://github.com/Bitmato-Studio/MatoPet",
+    "desc": null,
+    "model": "asset://pet.vrm",
+    "script": "./studio/src/pet.js",
+    "props": {
+      "avoidance_distance": "4",
+      "follow_speed": "2.2",
+      "rotation_speed": "2.2",
+      "emote_idle": {
+        "type": "emote",
+        "name": "emote-idle.glb",
+        "url": "asset://idle.glb"
+      },
+      "emote_walking": {
+        "type": "emote",
+        "name": "emote-walk.glb",
+        "url": "asset://walk.glb"
+      },
+      "emote_sitting": {
+        "type": "emote",
+        "name": "sit_idle_emote.glb",
+        "url": "asset://sit_idle.glb"
+      },
+      "target": ""
+    },
+    "preload": false,
+    "public": false,
+    "locked": false,
+    "unique": true
+  }

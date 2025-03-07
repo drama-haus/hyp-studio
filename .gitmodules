@@ -1,3 +1,4 @@
 [submodule "hyperfy"]
 	path = hyperfy
 	url = https://github.com/hyperfy-xyz/hyperfy/
+	ignore = dirty
