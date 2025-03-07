@@ -1,0 +1,33 @@
+{
+  "id": "Ughv7b1oF2",
+  "version": 7,
+  "name": "PvP Sword",
+  "image": null,
+  "author": null,
+  "url": null,
+  "desc": "draft for pvp sword",
+  "model": "asset://a0af4178b1bd37e755dd99b5137c5ccfb3c6a203d3ed71d3e775eb97a3b6e2d5.glb",
+  "script": "./apps/src/pvp_sword.js",
+  "props": {
+    "attack": {
+      "type": "emote",
+      "name": "emote-sword-out-slash.glb",
+      "url": "asset://9eed8f2520fae4b02052fa66264aec8b8ca285bc004267a5a13f6576d40c22ed.glb"
+    },
+    "attack1": {
+      "type": "emote",
+      "name": "test-sword-inward-slash.glb",
+      "url": "asset://460b1d41e99c3ff70d4e01c36d77ac925c2577584658e94566c579e88a670757.glb"
+    },
+    "attack2": {
+      "type": "emote",
+      "name": "test-sword-outward-slash.glb",
+      "url": "asset://a7b857124edf757f54efe9a6f3694e4d342d89823f0027bc7ad14bd72c38e630.glb"
+    },
+    "debug": true
+  },
+  "preload": true,
+  "public": false,
+  "locked": false,
+  "unique": false
+}
