@@ -591,7 +591,7 @@ program
         }
 
         try {
-          await $`bunx rollup -c --input ${scriptPath} --file ${outputPath}`.quiet();
+          await $`bunx rollup -c ./studio/rollup.config.js --input ${scriptPath} --file ${outputPath}`
           console.log(chalk.green(`Script built successfully: ${outputPath}`));
 
           // Hash the built script file
