@@ -968,12 +968,12 @@ program
   .option(
     "-as, --assets-dir <directory>",
     "Assets directory containing media files",
-    "./assets"
+    "./named-assets"
   )
   .option(
     "-ga, --global-assets <directory>",
     "Global assets directory for storing hashed assets",
-    "./global-assets"
+    "./assets"
   )
   .option(
     "-c, --cache-dir <directory>",
