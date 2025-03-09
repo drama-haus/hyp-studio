@@ -1,5 +1,8 @@
 {
   "name": "@repo/apps",
+  "scripts": {
+    "app:build": "npx apps build -a ./json -as ./assets -p"
+  },
   "devDependencies": {
     "@repo/config": "*"
   }
